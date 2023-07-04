@@ -15,6 +15,8 @@ const PI = 3.14159;
 const URL = "https://www.example.com";
 ```
 
+
+
 ### Tipos de Dados: Explorar os diferentes tipos de dados em JavaScript.
 **String**: Uma sequência de caracteres. Exemplo:
 ```javascript
@@ -44,6 +46,10 @@ let nomes = ["Maria", "João", "Ana"];
 ```
 
 
+**Operadores**
+![Operadores](image.png)
+
+
 **Object**: Uma coleção de propriedades que descrevem um objeto. Cada propriedade consiste em um nome e um valor. Exemplo:
 ```javascript
 let pessoa = {
@@ -63,6 +69,9 @@ let pessoa = {
 **Undefined**: Um valor que é atribuído automaticamente a variáveis que foram declaradas, mas ainda não têm valor atribuído. Exemplo:
 
 ``` let valorIndefinido; ```
+
+
+___
 
 
 ### Estruturas de Controle: 
@@ -114,6 +123,8 @@ switch (diaSemana) {
     break;
 }
 ```
+
+___
 
 
 ### Funções:  em JavaScript.
