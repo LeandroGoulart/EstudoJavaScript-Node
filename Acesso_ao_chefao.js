@@ -50,7 +50,7 @@ function verificarAcessoChefao(itensColetados, itemNecessario1, itemNecessario2,
     }
   }
 
-//   // Language: javascript  outra solução
+//  outra solução
 
 
 function verificarAcessoChefao(itensColetados, itemNecessario1, itemNecessario2, itemNecessario3) {
@@ -63,6 +63,17 @@ function verificarAcessoChefao(itensColetados, itemNecessario1, itemNecessario2,
     } else {
       return "NAO PODE ENFRENTAR";
     }
+  }
+  
+  //  outro modo com pensamento de logica contrária a anterior
+
+  function verificarAcessoAoBoss(itensColetados, itemNecessario1, itemNecessario2, itemNecessario3) {
+    for (let item of [itemNecessario1, itemNecessario2, itemNecessario3]) {
+      if (!itensColetados.includes(item)) {
+        return "NAO PODE ENFRENTAR";
+      }
+    }
+    return "PODE ENFRENTAR";
   }
   
   /* Exemplo de uso
